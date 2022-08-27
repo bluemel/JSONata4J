@@ -25,12 +25,16 @@
       <groupId>org.graalvm.js</groupId>
       <artifactId>js</artifactId>
       <version>22.2.0</version>
+      <scope>runtime</scope>
     </dependency>
+
+<!-- currently not yet needed
     <dependency>
       <groupId>org.graalvm.truffle</groupId>
       <artifactId>truffle-api</artifactId>
       <version>22.2.0</version>
     </dependency>
+-->
 
     <dependency>
       <groupId>com.ibm.jsonata4java</groupId>
